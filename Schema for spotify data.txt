@@ -1,0 +1,79 @@
+root
+|-- href: string
+|-- items: array
+|    |-- element: struct
+|    |    |-- added_at: string
+|    |    |-- added_by: struct
+|    |    |    |-- external_urls: struct
+|    |    |    |    |-- spotify: string
+|    |    |    |-- href: string
+|    |    |    |-- id: string
+|    |    |    |-- type: string
+|    |    |    |-- uri: string
+|    |    |-- is_local: boolean
+|    |    |-- primary_color: null
+|    |    |-- track: struct
+|    |    |    |-- preview_url: null
+|    |    |    |-- available_markets: array
+|    |    |    |    |-- element: string
+|    |    |    |-- explicit: boolean
+|    |    |    |-- type: string
+|    |    |    |-- episode: boolean
+|    |    |    |-- track: boolean
+|    |    |    |-- album: struct
+|    |    |    |    |-- available_markets: array
+|    |    |    |    |    |-- element: string
+|    |    |    |    |-- type: string
+|    |    |    |    |-- album_type: string
+|    |    |    |    |-- href: string
+|    |    |    |    |-- id: string
+|    |    |    |    |-- images: array
+|    |    |    |    |    |-- element: struct
+|    |    |    |    |    |    |-- height: int
+|    |    |    |    |    |    |-- url: string
+|    |    |    |    |    |    |-- width: int
+|    |    |    |    |-- name: string
+|    |    |    |    |-- release_date: string
+|    |    |    |    |-- release_date_precision: string
+|    |    |    |    |-- uri: string
+|    |    |    |    |-- artists: array
+|    |    |    |    |    |-- element: struct
+|    |    |    |    |    |    |-- external_urls: struct
+|    |    |    |    |    |    |    |-- spotify: string
+|    |    |    |    |    |    |-- href: string
+|    |    |    |    |    |    |-- id: string
+|    |    |    |    |    |    |-- name: string
+|    |    |    |    |    |    |-- type: string
+|    |    |    |    |    |    |-- uri: string
+|    |    |    |    |-- external_urls: struct
+|    |    |    |    |    |-- spotify: string
+|    |    |    |    |-- total_tracks: int
+|    |    |    |-- artists: array
+|    |    |    |    |-- element: struct
+|    |    |    |    |    |-- external_urls: struct
+|    |    |    |    |    |    |-- spotify: string
+|    |    |    |    |    |-- href: string
+|    |    |    |    |    |-- id: string
+|    |    |    |    |    |-- name: string
+|    |    |    |    |    |-- type: string
+|    |    |    |    |    |-- uri: string
+|    |    |    |-- disc_number: int
+|    |    |    |-- track_number: int
+|    |    |    |-- duration_ms: int
+|    |    |    |-- external_ids: struct
+|    |    |    |    |-- isrc: string
+|    |    |    |-- external_urls: struct
+|    |    |    |    |-- spotify: string
+|    |    |    |-- href: string
+|    |    |    |-- id: string
+|    |    |    |-- name: string
+|    |    |    |-- popularity: int
+|    |    |    |-- uri: string
+|    |    |    |-- is_local: boolean
+|    |    |-- video_thumbnail: struct
+|    |    |    |-- url: null
+|-- limit: int
+|-- next: null
+|-- offset: int
+|-- previous: null
+|-- total: int
